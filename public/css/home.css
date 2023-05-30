@@ -1,0 +1,181 @@
+* {
+	margin:0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+	color: #e1504a;
+	float: left;
+	margin-top: -5px;
+	font-size: 30px;
+}
+.one {
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	overflow-x: hidden;
+	position: relative;
+}
+
+.navbar {
+	display: flex;
+	padding: 40px 120px;
+}
+
+.navlogo img {
+	width: 135px;
+}
+
+.navmenu {
+	flex: 1;
+	margin-left: -50px;
+}
+
+.navmenu ul {
+	margin-left: 50px;
+	display: inline;
+}
+
+.navmenu ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 8px 25px;
+}
+
+.navmenu ul a{
+	color: black;
+	text-decoration: none;
+	font-size: 15px;
+}
+.navmenu ul li::after {
+	content: '';
+	width: 0;
+	height: 2px;
+	background: #e1504a;
+	display: block;
+	margin: auto;
+	transition: .5s;
+}
+
+.navmenu ul li:hover::after {
+	width: 100%;
+}
+
+.btn {
+	margin-left: 13%;
+	padding: 10px 20px;
+	border: 0;
+	background: #e1504a;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.navmenu .btn {
+	float: right;
+}
+
+.banner-title {
+	margin: 80px 130px;
+	flex-wrap: row;
+	float: inline-start;
+	color: black;
+}
+
+.banner-title h1 {
+	font-size: 50px;
+	margin-bottom: 30px;
+}
+.banner-title h2.tri{
+	font-size: 20px;
+	margin-bottom: 0px;
+	flex-direction:row;
+	float: right;
+}
+
+.lining {
+	height: 100%;
+	width: 50px;
+	background: #e1504a;
+	background-repeat: repeat-y;
+	bottom: 0;
+	position: absolute;
+}
+
+a{
+	text-decoration: none;
+}
+
+h2.tri {
+	flex-direction: row;
+	color: #e1504a;
+	font-size: 30px;
+	margin-top: -8%;
+	margin-left: 70%;
+}
+
+.content {
+	margin-left: 200px;
+}
+
+/*Services*/
+#servc {
+	text-align: center;
+	color: #e1504a;
+
+}
+#servc p{
+	color: black;
+}
+
+.img {
+	float: left;
+	width: 25%;
+	padding: 10px;
+  }
+
+/*About*/
+#abtus {
+	text-align: center;
+	color: #e1504a;
+}
+#abtus p{
+	color: black;
+	text-align: justify;
+	margin-top: 10px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+
+
+/*Appointment*/
+
+
+/*Book Now*/
+.card {
+	color: #e1504a;
+}
+
+
+/*Button*/
+#scrollButton {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 99;
+	font-size: 30px;
+	background-color: white;
+	border-radius: 50px;
+	padding: 10px 15px;
+	border: black solid 1px;
+	cursor: pointer;
+}
+
+
+
